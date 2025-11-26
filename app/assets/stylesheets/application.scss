@@ -18,5 +18,18 @@ h1{
   font-size: 50px;
   display:flex;
   justify-content:center;
+}
 
+h2 {
+  color: $dark-yellow;
+  font-family: $headers-font;
+  font-style: normal;
+  font-size: 40px;
+}
+
+p {
+  color: $dark;
+  font-family: $body-font;
+  font-style: normal;
+  text-align: justify;
 }
