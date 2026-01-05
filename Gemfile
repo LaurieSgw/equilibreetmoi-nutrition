@@ -59,7 +59,6 @@ end
 gem 'sassc-rails'
 gem "bootstrap", "~> 5.3"
 gem "font-awesome-sass", "~> 6.1"
-gem "simple_form"
 gem "autoprefixer-rails"
 
 group :development do
