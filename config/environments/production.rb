@@ -32,15 +32,16 @@ Rails.application.configure do
 
   config.action_mailer.delivery_method = :smtp
   config.action_mailer.smtp_settings = {
-  address: ENV["SMTP_ADDRESS"],
-  port: ENV["SMTP_PORT"],
-  user_name: ENV["SMTP_USERNAME"],
-  password: ENV["SMTP_PASSWORD"],
+  address: ENV["smtp-relay.brevo.com"],
+  port: ENV["587"],
+  user_name: ENV["lausegalo@gmail.com"],
+  password: ENV["xsmtpsib-fd58df70d762c18b7ab15b3cc7bd2af644851a9b7ff32862393ae5ccf4e49529-aAeS1zvbTjNHBVzv"],
   authentication: :login,
   enable_starttls_auto: true
 }
 
-  config.action_mailer.default_url_options = { host: 'tonapp.herokuapp.com' }
+ config.action_mailer.default_url_options = { host: 'immense-garden-16196.herokuapp.com' }
+
 
 
   # Enable serving of images, stylesheets, and JavaScripts from an asset server.
