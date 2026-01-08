@@ -1,5 +1,5 @@
 <div class="container card card-formulaire my-3">
-  <h5 class="py-3 text-center">Je souhaite prendre contact </h5>
+  <h5 class="py-3 text-center">Appel découverte</h5>
   <%= form_for @form do |f| %>
     <div>
       <%= f.label :Nom %></br>
@@ -8,16 +8,19 @@
       <%= f.label :Mail %></br>
       <%= f.text_field :email, required: true, class: "contact-form-text-area form-control" %></br>
 
+        <%= f.label :Téléphone %></br>
+      <%= f.text_field :phone, required: true, class: "contact-form-text-area form-control", placeholder: "06.00.00.00.00" %></br>
+
       <%= f.label :Message %></br>
       <%= f.text_area :message, rows: 8, cols: 40, required: true, class: " form-control ontact-form-text-area fst-italic ",
-            placeholder: "Décrivez moi votre besoin et vos questions s'il y en a..."%></br>
+            placeholder: "Décrivez moi votre besoin et vos questions s'il y en a. Je reviendrai vers vous en vous proposant plusieurs créneaux d'appel."%></br>
 
       <div class= "d-none">
         <%= f.label :nickname %>
         <%= f.text_field :nickname, :hint => 'Leave this field blank!' %>
       </div>
 
-       <%= f.submit 'Envoyer le formulaire', class: 'button-form my-3 d-flex align-items-center' %>
+       <%= f.submit 'Envoyer la demande', class: 'button-form my-3 d-flex align-items-center' %>
     </div>
   <% end %>
 </div>

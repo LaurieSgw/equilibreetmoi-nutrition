@@ -37,11 +37,12 @@ h3 {
 }
 
 h4 {
-  color: $orange;
+  color: $green;
   font-family: $body-font;
-  font-style: italic;
   font-size: 20px;
   font-style:normal;
+
+
 }
 
 h5 {
@@ -58,6 +59,8 @@ p {
   font-family: $body-font;
   font-style: normal;
   text-align: justify;
+  font-weight: 400;
+
 }
 
 .hidden {

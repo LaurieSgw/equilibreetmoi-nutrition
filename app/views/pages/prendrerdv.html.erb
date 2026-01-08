@@ -2,23 +2,28 @@
   <h1 class="my-5">Prendre rendez-vous</h1>
     <div class="row">
       <div class="col-6 my-3" >
-        <h3> Je souhaite être accompagné.e</h3>
-        <p> Si vous souhaitez prendre rendez-vous, je vous invite à m’écrire via le formulaire de contact afin de m’expliquer au mieux votre besoin et vos attentes ainsi que la prestation qui vous intéresse. Je reviendrai ensuite vers vous dans un délai de 7 jours ouvrés pour vous confirmer la prise en charge et vous proposer plusieurs créneaux de rendez-vous. Le rendez-vous peut s’effectuer en présentiel  (St jean - 31240) ou par visio selon votre convenance. La prise de contact ne vous engage évidemment en rien, cependant si après plusieurs échanges vous ne souhaitez pas mettre en place d’accompagnement, je vous remercie de me le communiquer pour éviter toute relance inutile. </p>
-          <div class="my-5">
-            <h4>Des questions ?</h4>
-              <p> Dans le cas où vous souhaitez échanger et me poser des questions avant de vous lancer, je vous invite à me contacter :par téléphone, au 06 15 750 500par mail, à l’adresse suivante : equilibreetmoi.contact@gmail.com
-              </p>
-          </div>
+        <h3> Osez la démarche !</h3>
+         <h4>Je souhaite être accompagné.e : </h4>
+        <p> Prendre rendez-vous, c’est déjà faire un premier pas vers vous-même. Devenez acteur.trice de votre santé !
+            Réservez l'appel découverte, il est gratuit et nous permettra de faire le point sur votre situation et de répondre à toutes vos interrogations.</p>
+
+      <div class="my-5">
+        <h4>Vous êtes sûr.e de vous ?</h4>
+        <p> Vous pouvez d'ores et déjà réserver votre rendez-vous pour effectuer le Bilan initial.
+        </p>
+
+         <div class="col-8 my-5">
+            <p><%= link_to "Je me lance !", "https://calendly.com/luminescence-rdv/bon-cadeau", class: "text-decoration-none button-orange mt-4"%></p>
+         </div>
       </div>
+    </div>
 
 
       <div class="col-6 d-flex justify-content-center">
       <%= render "shared/forms/new" %>
       </div>
 
-      <div class="col-6 d-flex justify-content-center button-form">
-      <p><%= link_to "Reserver un appel découverte gratuit", "https://calendly.com/luminescence-rdv/bon-cadeau", class: "text-decoration-none"%></p>
-      </div>
+
 
     </div>
 </div>
