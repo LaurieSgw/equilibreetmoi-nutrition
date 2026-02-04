@@ -3,6 +3,7 @@
   <head>
     <title>Equilibre et moi - Accompagnement complet : nutrition, respiration, gestion du stress</title>
     <meta name="viewport" content="width=device-width,initial-scale=1">
+
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
@@ -12,10 +13,6 @@
 
   <body>
     <%= render "shared/navbar"%>
-
-  <% flash.each do |key, message| %>
-    <p class="alert alert-<%= key %>"><%= message %></p>
-  <% end %>
 </div>
     <%= yield %>
     <%= render "shared/footer"%>
