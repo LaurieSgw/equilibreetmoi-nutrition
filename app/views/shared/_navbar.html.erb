@@ -4,7 +4,7 @@
         <%= image_tag "logo.png", alt: "Logo-navbar" %>
       <% end %>
     <div>
-      <ul class="nav">
+      <ul class="nav nav-links" id="nav-links">
           <li>
             <%= link_to "Qui suis-je ?", root_path, class: "nav-link nav-text mx-2" %>
           </li>
@@ -18,6 +18,9 @@
           <%= link_to "Prendre rendez-vous", prendrerdv_path , class: "nav-link nav-button-orange mx-2" %>
           </li>
         </ul>
+
+
+       <button class="burger" id="burger">☰</button>
     </div>
   </div>
 </div>

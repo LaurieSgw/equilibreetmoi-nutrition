@@ -37,11 +37,9 @@
   background-color: $green-light;
   border-color: $green;
   border-radius: 20px;
-  padding: 0,5%;
   margin-left: 5%;
   margin-right: 5%;
-  margin-top: 10%;
-
+  padding: 2%;
 }
 
 .background-formation {
@@ -64,6 +62,12 @@ width: 400px;
 padding: 10%;
 border-radius: 30%;
 margin-top: 10%
+}
+
+@media (max-width: 768px) {
+  .imgV1 {
+    display: none;
+  }
 }
 
 .pstrong {
