@@ -16,6 +16,13 @@
 
 }
 
+@media (max-width: 768px) {
+  .footer-img {
+    display: none;
+  }
+}
+
+
 
 .footer-text{
   color: $light-yellow;
